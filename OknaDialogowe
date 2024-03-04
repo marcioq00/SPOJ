@@ -1,0 +1,15 @@
+package zad1.pkg1;
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author Marek Jóskowiak
+ */
+public class Zad11 {
+
+    public static void main(String[] args) {
+        String text;
+        text = JOptionPane.showInputDialog(null, "Wpisz tekst");
+        JOptionPane.showMessageDialog(null,text.toUpperCase()); 
+    }
+    
+}
