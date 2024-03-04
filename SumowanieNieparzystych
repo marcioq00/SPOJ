@@ -1,0 +1,23 @@
+package zad1.pkg3;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Marek 
+ */
+public class Zad13 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int userNumber;
+        int result = 0;
+        System.out.println("Podaj n: ");
+        userNumber = sc.nextInt();
+        
+        for (int i = 1; i <= userNumber; i += 2) {
+            result += i;
+        }
+        System.out.println("Wynik: " + result);
+    }
+    
+}
