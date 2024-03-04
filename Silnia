@@ -1,0 +1,24 @@
+package silnia;
+import java.math.BigInteger;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Marek 
+ */
+public class Silnia {
+
+    public static void main(String[] args) {
+        int userNumber;
+        Scanner sc = new Scanner(System.in);
+        BigInteger factorial = BigInteger.valueOf(1);
+        System.out.print("Podaj liczbę całkowitą n: ");
+        userNumber = sc.nextInt();
+        
+        for(int i=1; i <= userNumber; i++) {
+            factorial = factorial.multiply(BigInteger.valueOf(i));
+        }
+        System.out.println("Silnia: " + factorial);
+    }
+    
+}
