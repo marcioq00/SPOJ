@@ -1,0 +1,32 @@
+package zad1.pkg4;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Marek 
+ */
+public class Zad14 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int number;
+        System.out.println("Podaj liczbę całkowitą: ");
+        number = sc.nextInt();
+        String binaryRepresentation = binaryMethod(number);
+        String octalRepresentation = octalMethod(number);
+        String hexadecimalRepresentation = hexMethod(number);
+
+        System.out.println("Binarna reprezentacja: " + binaryRepresentation);
+        System.out.println("Ósemkowa reprezentacja: " + octalRepresentation);
+        System.out.println("Szesnastkowa reprezentacja: " + hexadecimalRepresentation);
+    }
+    public static String binaryMethod(int userNumber) {
+        return Integer.toBinaryString(userNumber);
+    }
+    public static String octalMethod(int userNumber) {
+        return Integer.toOctalString(userNumber);
+    }
+    public static String hexMethod(int userNumber) {
+        return Integer.toHexString(userNumber).toUpperCase();
+    }
+}
