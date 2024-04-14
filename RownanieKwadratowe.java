@@ -8,7 +8,6 @@ import java.util.Scanner;
  */
 public class RownanieKwadratowe {
 
-  
     private static double a,b,c,d;
     private static int liczbaMiejscZerowych;
 
