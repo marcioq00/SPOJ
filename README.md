@@ -1,4 +1,4 @@
-Zadania Programowanie Obiektowe - Java
+# Zadania Programowanie Obiektowe - Java
 1. Wyrażenia, instrukcje, metody
 
     Zad 1.1 -> OknaDialogowe.java
