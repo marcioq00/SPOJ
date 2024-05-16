@@ -12,6 +12,7 @@ class Wspolrzedna implements Comparable<Wspolrzedna> {
         x = _x;
         y = _y;
     }
+    @Override
     public String toString() {
         return "(" + x + ", " + y + ")";
     }
